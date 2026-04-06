@@ -1,255 +1,221 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="en"><head>
+<html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Projects | CS Portfolio</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<title>Certifications | Academic Playground</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-        tailwind.config = {
-          darkMode: "class",
-          theme: {
-            extend: {
-              "colors": {
-                      "surface-bright": "#f5f6f7",
-                      "inverse-surface": "#0c0f10",
-                      "on-tertiary-fixed": "#00192e",
-                      "error-dim": "#9f0519",
-                      "surface-container-low": "#eff1f2",
-                      "surface-container-highest": "#dadddf",
-                      "surface-tint": "#006760",
-                      "on-tertiary-container": "#003355",
-                      "tertiary-fixed": "#66b6ff",
-                      "secondary-container": "#ffc3bd",
-                      "primary": "#006760",
-                      "primary-fixed-dim": "#63e2d6",
-                      "on-secondary": "#ffefed",
-                      "outline-variant": "#abadae",
-                      "on-error": "#ffefee",
-                      "surface": "#f5f6f7",
-                      "on-background": "#2c2f30",
-                      "background": "#f5f6f7",
-                      "primary-dim": "#005a54",
-                      "error": "#b31b25",
-                      "inverse-on-surface": "#9b9d9e",
-                      "secondary-fixed-dim": "#ffafa8",
-                      "secondary": "#9b3d37",
-                      "surface-dim": "#d1d5d7",
-                      "secondary-dim": "#8b312c",
-                      "on-secondary-container": "#802925",
-                      "primary-container": "#73f1e4",
-                      "on-tertiary-fixed-variant": "#003c63",
-                      "tertiary-dim": "#005386",
-                      "on-primary-fixed": "#00443f",
-                      "on-primary-fixed-variant": "#00635c",
-                      "surface-container-lowest": "#ffffff",
-                      "on-tertiary": "#ecf3ff",
-                      "error-container": "#fb5151",
-                      "inverse-primary": "#7cfaed",
-                      "on-primary-container": "#005852",
-                      "secondary-fixed": "#ffc3bd",
-                      "on-surface": "#2c2f30",
-                      "on-error-container": "#570008",
-                      "tertiary": "#005f99",
-                      "on-secondary-fixed-variant": "#8c322d",
-                      "surface-container-high": "#e0e3e4",
-                      "primary-fixed": "#73f1e4",
-                      "outline": "#757778",
-                      "tertiary-container": "#66b6ff",
-                      "on-primary": "#bffff6",
-                      "on-surface-variant": "#595c5d",
-                      "surface-container": "#e6e8ea",
-                      "tertiary-fixed-dim": "#47a9f9",
-                      "surface-variant": "#dadddf",
-                      "on-secondary-fixed": "#661614"
-              },
-              "borderRadius": {
-                      "DEFAULT": "1rem",
-                      "lg": "2rem",
-                      "xl": "3rem",
-                      "full": "9999px"
-              },
-              "fontFamily": {
-                      "headline": ["Plus Jakarta Sans"],
-                      "body": ["Be Vietnam Pro"],
-                      "label": ["Plus Jakarta Sans"]
-              }
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#f5f6f7",
+                    "inverse-surface": "#0c0f10",
+                    "on-tertiary-fixed": "#00192e",
+                    "error-dim": "#9f0519",
+                    "surface-container-low": "#eff1f2",
+                    "surface-container-highest": "#dadddf",
+                    "surface-tint": "#006760",
+                    "on-tertiary-container": "#003355",
+                    "tertiary-fixed": "#66b6ff",
+                    "secondary-container": "#ffc3bd",
+                    "primary": "#006760",
+                    "primary-fixed-dim": "#63e2d6",
+                    "on-secondary": "#ffefed",
+                    "outline-variant": "#abadae",
+                    "on-error": "#ffefee",
+                    "surface": "#f5f6f7",
+                    "on-background": "#2c2f30",
+                    "background": "#f5f6f7",
+                    "primary-dim": "#005a54",
+                    "error": "#b31b25",
+                    "inverse-on-surface": "#9b9d9e",
+                    "secondary-fixed-dim": "#ffafa8",
+                    "secondary": "#9b3d37",
+                    "surface-dim": "#d1d5d7",
+                    "secondary-dim": "#8b312c",
+                    "on-secondary-container": "#802925",
+                    "primary-container": "#73f1e4",
+                    "on-tertiary-fixed-variant": "#003c63",
+                    "tertiary-dim": "#005386",
+                    "on-primary-fixed": "#00443f",
+                    "on-primary-fixed-variant": "#00635c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary": "#ecf3ff",
+                    "error-container": "#fb5151",
+                    "inverse-primary": "#7cfaed",
+                    "on-primary-container": "#005852",
+                    "secondary-fixed": "#ffc3bd",
+                    "on-surface": "#2c2f30",
+                    "on-error-container": "#570008",
+                    "tertiary": "#005f99",
+                    "on-secondary-fixed-variant": "#8c322d",
+                    "surface-container-high": "#e0e3e4",
+                    "primary-fixed": "#73f1e4",
+                    "outline": "#757778",
+                    "tertiary-container": "#66b6ff",
+                    "on-primary": "#bffff6",
+                    "on-surface-variant": "#595c5d",
+                    "surface-container": "#e6e8ea",
+                    "tertiary-fixed-dim": "#47a9f9",
+                    "surface-variant": "#dadddf",
+                    "on-secondary-fixed": "#661614"
             },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Be Vietnam Pro"],
+                    "label": ["Plus Jakarta Sans"]
+            }
           },
-        }
+        },
+      }
     </script>
 <style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        body { font-family: 'Be Vietnam Pro', sans-serif; }
-        h1, h2, h3 { font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { font-family: 'Be Vietnam Pro', sans-serif; background-color: #f5f6f7; color: #2c2f30; }
+        .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .ambient-shadow { box-shadow: 0 20px 40px -10px rgba(44, 47, 48, 0.06); }
+        .pill-gradient { background: linear-gradient(135deg, #006760 0%, #73f1e4 100%); }
     </style>
 </head>
-<body class="bg-background text-on-surface antialiased">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-xl shadow-teal-900/5 tonal-shift">
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-xl shadow-teal-900/5">
 <div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4">
-<div class="text-2xl font-black text-teal-600 font-headline tracking-tight">CS Portfolio</div>
-<!-- Desktop Links -->
+<span class="text-2xl font-black text-teal-600 font-headline tracking-tight">Academic Playground</span>
 <div class="hidden md:flex items-center gap-8">
-<a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="#">Home</a>
-<a class="text-teal-600 font-bold border-b-4 border-teal-500 rounded-full px-2 hover:scale-105 transition-transform duration-300" href="#">Projects</a>
-<a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="#">Certifications</a>
+<a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="index.html">Home</a>
+<a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="projects.html">Projects</a>
+<a class="text-teal-600 font-bold border-b-4 border-teal-500 rounded-full px-2 hover:scale-105 transition-transform duration-300" href="cert.html">Certifications</a>
 </div>
-<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container font-bold px-6 py-2 rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/10">
-                Contact Me
-            </button>
+<button class="pill-gradient text-white font-headline font-bold px-6 py-2.5 rounded-full hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-primary/20">
+            Contact Me
+        </button>
 </div>
 </nav>
-<main class="pt-32 pb-24 px-6 md:px-12">
-<div class="max-w-7xl mx-auto">
-<!-- Header Section -->
-<header class="mb-20 space-y-6">
-<div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container font-headline text-sm font-bold">
-<span class="material-symbols-outlined text-sm">rocket_launch</span>
-                    MY CREATIONS
-                </div>
-<h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface leading-tight">
-                    Engineering soft <br/> <span class="text-primary italic">solutions</span> for humans.
-                </h1>
-<p class="text-lg md:text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-                    A collection of technical experiments, academic projects, and software prototypes focused on high-tactile interactivity and clean architecture.
-                </p>
+<main class="pt-32 pb-24 px-6 md:px-12 max-w-7xl mx-auto">
+<header class="mb-16 text-center md:text-left">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-sm font-bold font-label mb-6">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">verified</span>
+            Verified Achievements
+        </div>
+<h1 class="text-5xl md:text-7xl font-headline font-extrabold text-on-background tracking-tighter leading-tight mb-6">
+            Learning <span class="text-primary italic">Never Stops</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-2xl leading-relaxed font-medium">
+            A collection of technical credentials and specialized training certifications reflecting my commitment to staying at the forefront of Computer Science and Engineering.
+        </p>
 </header>
-<!-- Projects Grid (Bento Style) -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-<!-- Project 1: Big Feature Card -->
-<div class="md:col-span-8 bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
-<div class="h-80 w-full relative overflow-hidden bg-surface-container">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Modern coding interface with dark background and vibrant teal syntax highlighting on a minimalist laptop screen" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCXYnMtF-MvVHbyMj00amwHW9zW0bvxmffEqB0K42DdVd_lql_s9MvH_bbn9T0r8Cs8XWrx7QyInNp2jiMVPWLLksTD7td3Zh0UDOgD1uUkdabC0JvfaD7CjtOdSwglI_CpgZq5CsmPsD2TaTEBG3RT2_Owd0Kq4JYjXHgT6NEJwEyLqYsc-5hC3qpi_xU8lhu02aGW7cPa37AjB-w3_Z4SRw81pC9-eK7GQFIOh3HcEdg-kUMbvuE_rtG7qa_g3bPnzZHt-yZCg"/>
-<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 to-transparent"></div>
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Python Essential Training -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="terminal">terminal</span>
 </div>
-<div class="p-10 flex flex-col justify-between flex-grow">
-<div class="space-y-4">
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Python/ML</span>
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">TensorFlow</span>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">Python Essential Training</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Mastery of core Python programming concepts including data structures, functions, and object-oriented programming.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">LinkedIn Learning</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: April 2024</span>
 </div>
-<h3 class="text-3xl font-bold text-on-surface tracking-tight">Predictive Health Analytics</h3>
-<p class="text-on-surface-variant text-lg leading-relaxed max-w-xl">
-                                An end-to-end machine learning pipeline that predicts diagnostic patterns using neural networks. Integrated with a clean dashboard for medical practitioners to visualize data trends.
-                            </p>
+</article>
+<!-- 19 Labs on Cloud Study Jam -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-tertiary text-4xl" data-icon="cloud">cloud</span>
 </div>
-<div class="pt-8 flex items-center gap-4">
-<button class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all">
-                                View Case Study <span class="material-symbols-outlined">arrow_forward</span>
-</button>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">19 Labs on Cloud Study Jam</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Hands-on experience with Google Cloud Platform, covering infrastructure, data processing, and security labs.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">Google Cloud Study Jam</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: March 2024</span>
 </div>
+</article>
+<!-- Arcade Game Badge -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="sports_esports">sports_esports</span>
 </div>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">Arcade Game Badge</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Gamified technical challenges demonstrating proficiency in cloud troubleshooting and application deployment.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">Google Cloud Skills Boost</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: February 2024</span>
 </div>
-<!-- Project 2: Side Card -->
-<div class="md:col-span-4 bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 border border-outline-variant/10">
-<div class="h-60 bg-primary-container/20 flex items-center justify-center relative overflow-hidden">
-<span class="material-symbols-outlined text-8xl text-primary/20 absolute -right-4 -bottom-4 rotate-12">grid_view</span>
-<img class="w-48 h-48 object-contain z-10 group-hover:rotate-6 transition-transform duration-500" data-alt="Abstract colorful geometric blocks floating on a clean white background with soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEJdbdDIFCE1jUZR9yoC_XfSIiJSlpfXPxZKL4QqN3klKXnqomx5Cumr6zYfwAf3EE4q9nbk2ym9ZN8YH-e_XmeWC8SCF2wPe5duAe4wsFV9Q0gq4TfMueKVV5nPKcIwoD0CsUHVSa4CPhQQ_Wt0htDj-JQPwLus0RODWfJmwB38OVgEPRRwmaqyPDVjB6TD1Pp_TRtv4u-BS7KqwkoB9hxtkK_HnZuHNZn8yZcHLyzWMV97JzwmNh9y_zgxVk-PxQVisBbzkEeA"/>
+</article>
+<!-- AI Microsoft LinkedIn Learning Certificate -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-on-tertiary-fixed-variant text-4xl" data-icon="smart_toy">smart_toy</span>
 </div>
-<div class="p-8 space-y-4">
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Java/Swing</span>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">AI Microsoft Certificate</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Comprehensive training on Microsoft AI solutions, Azure Machine Learning, and ethical AI implementation.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">Microsoft • LinkedIn Learning</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: January 2024</span>
 </div>
-<h3 class="text-2xl font-bold text-on-surface tracking-tight">Algorithmic Visualizer</h3>
-<p class="text-on-surface-variant leading-relaxed">
-                            A tactile desktop application built to demonstrate sorting and pathfinding algorithms through interactive animations.
-                        </p>
-<div class="pt-4">
-<span class="material-symbols-outlined text-primary cursor-pointer hover:translate-x-2 transition-transform">east</span>
+</article>
+<div class="lg:col-span-2 relative overflow-hidden bg-surface-container rounded-xl p-8 md:p-12 border border-outline-variant/15 flex flex-col md:flex-row items-center gap-8">
+<div class="flex-1 order-2 md:order-1">
+<h3 class="text-3xl font-headline font-extrabold text-on-background mb-4">In Progress: Advanced Data Structures</h3>
+<p class="text-lg text-on-surface-variant mb-6 leading-relaxed">Currently tackling algorithmic complexity and high-performance computation models at MIT OpenCourseWare.</p>
+<div class="w-full bg-surface-container-highest rounded-full h-3 mb-2">
+<div class="bg-primary h-3 rounded-full" style="width: 75%"></div>
 </div>
+<span class="text-sm font-bold text-primary font-label">75% Complete</span>
 </div>
+<div class="w-full md:w-1/3 aspect-square rounded-lg overflow-hidden order-1 md:order-2 ambient-shadow">
+<img alt="Coding workspace" class="w-full h-full object-cover" data-alt="close-up of a modern laptop screen showing complex colorful code in a dark room with soft ambient neon lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7fKModFM7b9N20WpYKxvewYkX5fEU1xqFn8eagWwAoy6rRzf0-vmOgwT-vNHJH93FDV5gac3zkNVbxP-TJTpOIOHTY-AT3btv763_nwJCnLKf-wZZU_ywrIh4MsFAognoF9CC8aUlLMxrlVRytQd02LWOcGbcG1cuc0xq-96XoceGFnn7x6fdDflo6yEksz49hIjX3pdXQYd39kktroHyN4XrEeIXSCEUJkBChaXfDOFFbquN_jMMMCMZMvxTCjLKymeK8_8X4w"/>
 </div>
-<!-- Project 3: Wide Card -->
-<div class="md:col-span-6 bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
-<div class="p-10 space-y-6">
-<div class="h-12 w-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
-<span class="material-symbols-outlined">database</span>
-</div>
-<div class="space-y-2">
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Firebase</span>
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">React</span>
-</div>
-<h3 class="text-2xl font-bold text-on-surface">Cloud Inventory Sync</h3>
-<p class="text-on-surface-variant leading-relaxed">
-                                Real-time inventory management system for local libraries. Featuring live updates, offline-first capabilities, and multi-user authentication.
-                            </p>
-</div>
-</div>
-<div class="mt-auto">
-<img class="w-full h-48 object-cover" data-alt="Overhead view of a clean workspace with a tablet showing a data management dashboard and minimalist office supplies" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5GvjrB3T7pasOQxdzthHnbABUex-ijvnCVLl6WzvT1qGevDZDXl0l3nslC5VmkKM7H0pgqPaP0wKrAxEHUtRTlHknJlxUWxgHENwt3M-FFXQKEO1jfIiKB0cYKpCoce7hL0s3WvdU8-m6BmAOQR1sktiGZ02G2Kb-Q9GVETvPanjaWqqmxdK6pnQzMnglx_Yt2xMrYtIgAXIS2gAuEeV1uSKaSjYdKEERgdIeI3kzAI4P--6zOWUIF-ZO7RXmrk6qHmitfNcMXA"/>
-</div>
-</div>
-<!-- Project 4: Complementary Card -->
-<div class="md:col-span-6 bg-tertiary-container/10 rounded-xl p-10 flex flex-col justify-center space-y-6 group hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
-<div class="absolute -top-10 -right-10 w-40 h-40 bg-tertiary/5 rounded-full blur-3xl"></div>
-<div class="flex items-center gap-4">
-<div class="p-3 bg-surface-container-lowest rounded-full shadow-sm">
-<span class="material-symbols-outlined text-tertiary">code_blocks</span>
-</div>
-<h3 class="text-2xl font-bold text-on-surface tracking-tight">Compiler Prototype</h3>
-</div>
-<p class="text-on-surface-variant text-lg leading-relaxed">
-                        A low-level academic project focused on lexical analysis and syntax parsing for a custom subset of C language.
-                    </p>
-<div class="bg-surface-container-highest/30 p-6 rounded-lg font-mono text-sm text-tertiary border border-outline-variant/10">
-<div class="flex gap-2 mb-2">
-<div class="w-2 h-2 rounded-full bg-error"></div>
-<div class="w-2 h-2 rounded-full bg-secondary"></div>
-<div class="w-2 h-2 rounded-full bg-primary"></div>
-</div>
-<code class="block">func parse(token_stream) { <br/>  ASTNode root = build_tree();<br/>  return root;<br/>}</code>
-</div>
-<div class="flex gap-2 pt-4">
-<span class="px-3 py-1 bg-surface-container-lowest text-tertiary font-bold text-xs rounded-full shadow-sm">C++</span>
-<span class="px-3 py-1 bg-surface-container-lowest text-tertiary font-bold text-xs rounded-full shadow-sm">LLVM</span>
-</div>
-</div>
-</div>
-<!-- Skills Accent Section -->
-<section class="mt-32 p-12 rounded-xl bg-surface-container text-center space-y-8">
-<h2 class="text-3xl font-bold text-on-surface">Core Competencies</h2>
-<div class="flex flex-wrap justify-center gap-4">
-<span class="px-6 py-3 bg-surface-container-lowest text-primary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">Full Stack Dev</span>
-<span class="px-6 py-3 bg-surface-container-lowest text-secondary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">Data Science</span>
-<span class="px-6 py-3 bg-surface-container-lowest text-tertiary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">UI/UX Research</span>
-<span class="px-6 py-3 bg-surface-container-lowest text-primary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">Cloud Architecture</span>
 </div>
 </section>
+<section class="mt-24 bg-surface-container-lowest rounded-xl p-12 ambient-shadow flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-container/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
+<div class="relative z-10 max-w-xl text-center lg:text-left">
+<h2 class="text-4xl font-headline font-extrabold text-on-background mb-4">Academic Background</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8">
+                Currently pursuing a B.S. in Computer Science at the University of Technology, focusing on Distributed Systems and Artificial Intelligence.
+            </p>
+<div class="flex flex-wrap justify-center lg:justify-start gap-4">
+<div class="px-6 py-3 bg-surface-container rounded-full font-bold text-on-surface flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="school">school</span>
+                    Dean's List 2023
+                </div>
+<div class="px-6 py-3 bg-surface-container rounded-full font-bold text-on-surface flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="military_tech">military_tech</span>
+                    Hackathon Finalist
+                </div>
 </div>
+</div>
+<div class="relative z-10 w-full max-w-xs aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl rotate-2">
+<img alt="University Campus" class="w-full h-full object-cover" data-alt="modern glass university library architecture reflected in a still pond during a peaceful morning sunrise with soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZHiLvSqQu0VmGt_UVJ2yjDsZ0PkhgfNR3mbx9ip_M3b-sAun20muBLtS89Ylk2H2KPFUCaACi49xwYTChBjMjlyfoD0nTf29y06SwhuaHW_83LQeDRlHSf7S7EDRR0FaEefiO83uFIr46Gn6MnPXwsJnEAzrqk2y5BANkAK7rFdHKxRnwn5HGDMGlrqywMC8jQEakqFB3Olta64MYfuTW22-VCFKE-04ivJrEGIb9s3UYynYq4d6eq9b6wjDZs0Pys_SFPt1nYA"/>
+</div>
+</section>
 </main>
-<!-- Footer -->
-<footer class="w-full py-12 px-8 bg-slate-100 tonal-shift-bg">
+<footer class="bg-slate-100 w-full py-12 px-8">
 <div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
-<div class="text-slate-500 font-medium font-be-vietnam-pro text-sm">© 2024 Academic Playground Portfolio</div>
-<div class="flex gap-8">
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">LinkedIn</a>
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">YouTube</a>
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">Schoolhouse</a>
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">Email</a>
+<div class="flex flex-col items-center md:items-start gap-2">
+<p class="font-be-vietnam-pro text-sm font-medium text-slate-500">© 2024 Academic Playground Portfolio</p>
+<div class="flex gap-4">
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">LinkedIn</a>
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">YouTube</a>
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">Schoolhouse</a>
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">Email</a>
 </div>
-<!-- Hidden Brand Logo as per JSON -->
-<div class="hidden">CS Portfolio</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="text-slate-400 font-headline font-bold text-sm tracking-widest uppercase">Stay Curious</span>
+<div class="w-12 h-[2px] bg-outline-variant/30"></div>
+</div>
 </div>
 </footer>
-<!-- Mobile Navigation (BottomNavBar Fallback) -->
-<div class="md:hidden fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-lg px-6 py-4 flex justify-around items-center z-50 border-t border-outline-variant/10">
-<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
-<span class="material-symbols-outlined">home</span>
-<span class="text-[10px] font-bold">Home</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-teal-600" href="#">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">widgets</span>
-<span class="text-[10px] font-bold">Projects</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-500" href="#">
-<span class="material-symbols-outlined">verified</span>
-<span class="text-[10px] font-bold">Certs</span>
-</a>
-</div>
 </body></html>
