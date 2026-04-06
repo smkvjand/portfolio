@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Academic Playground | Sri V Jandhyala</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "background": "#f5f6f7",
+                    "tertiary-fixed": "#66b6ff",
+                    "error-dim": "#9f0519",
+                    "on-primary-container": "#005852",
+                    "surface-container-high": "#e0e3e4",
+                    "surface-variant": "#dadddf",
+                    "tertiary-container": "#66b6ff",
+                    "on-secondary-fixed": "#661614",
+                    "surface": "#f5f6f7",
+                    "on-error": "#ffefee",
+                    "on-tertiary": "#ecf3ff",
+                    "on-primary-fixed-variant": "#00635c",
+                    "on-primary-fixed": "#00443f",
+                    "on-secondary": "#ffefed",
+                    "on-primary": "#bffff6",
+                    "primary-dim": "#005a54",
+                    "primary": "#006760",
+                    "surface-container-low": "#eff1f2",
+                    "surface-tint": "#006760",
+                    "on-tertiary-fixed-variant": "#003c63",
+                    "on-surface": "#2c2f30",
+                    "on-secondary-fixed-variant": "#8c322d",
+                    "on-error-container": "#570008",
+                    "secondary": "#9b3d37",
+                    "on-secondary-container": "#802925",
+                    "surface-container-lowest": "#ffffff",
+                    "error-container": "#fb5151",
+                    "tertiary": "#005f99",
+                    "outline-variant": "#abadae",
+                    "surface-dim": "#d1d5d7",
+                    "tertiary-dim": "#005386",
+                    "tertiary-fixed-dim": "#47a9f9",
+                    "outline": "#757778",
+                    "inverse-on-surface": "#9b9d9e",
+                    "secondary-fixed-dim": "#ffafa8",
+                    "secondary-dim": "#8b312c",
+                    "on-surface-variant": "#595c5d",
+                    "surface-bright": "#f5f6f7",
+                    "secondary-fixed": "#ffc3bd",
+                    "inverse-surface": "#0c0f10",
+                    "secondary-container": "#ffc3bd",
+                    "on-tertiary-fixed": "#00192e",
+                    "on-background": "#2c2f30",
+                    "surface-container": "#e6e8ea",
+                    "inverse-primary": "#7cfaed",
+                    "on-tertiary-container": "#003355",
+                    "primary-fixed-dim": "#63e2d6",
+                    "error": "#b31b25",
+                    "primary-fixed": "#73f1e4",
+                    "primary-container": "#73f1e4",
+                    "surface-container-highest": "#dadddf"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Be Vietnam Pro"],
+                    "label": ["Plus Jakarta Sans"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .soft-lift {
+            box-shadow: 0 40px 60px -10px rgba(44, 47, 48, 0.06);
+        }
+        .glass-nav {
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        body {
+            font-family: 'Be Vietnam Pro', sans-serif;
+            background-color: #f5f6f7;
+            color: #2c2f30;
+        }
+        h1, h2, h3, h4 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav class="sticky top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-sm dark:shadow-none no-border tonal-shift">
+<div class="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
+<div class="text-xl font-bold text-slate-900 dark:text-white tracking-tighter">Academic Playground</div>
+<div class="hidden md:flex gap-8 items-center font-['Plus_Jakarta_Sans'] font-semibold text-sm tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-500 transition-transform hover:scale-105 duration-200" href="#experience">Experience</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-500 transition-transform hover:scale-105 duration-200" href="#skills">Skills</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-teal-500 transition-transform hover:scale-105 duration-200" href="#projects">Projects</a>
+</div>
+<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container px-6 py-2.5 rounded-full font-semibold text-sm hover:scale-105 transition-all soft-lift active:scale-95 duration-200">
+                Contact Me
+            </button>
+</div>
+</nav>
+<main class="max-w-7xl mx-auto px-6 space-y-32 py-16">
+<!-- Hero Section -->
+<section class="flex flex-col md:flex-row items-center justify-between gap-12 pt-8">
+<div class="flex-1 space-y-8 text-center md:text-left">
+<div class="inline-flex items-center gap-2 px-4 py-2 bg-secondary-container text-on-secondary-container rounded-full text-sm font-bold tracking-wide">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+                    CS STUDENT &amp; EDUCATOR
+                </div>
+<h1 class="text-6xl md:text-8xl font-extrabold tracking-tighter leading-tight">
+                    Hi, I'm <span class="text-primary italic">Sri!</span>
+</h1>
+<p class="text-xl md:text-2xl text-on-surface-variant max-w-xl font-medium leading-relaxed">
+                    Building the future of software through curious exploration at <span class="text-tertiary font-bold underline decoration-tertiary-container underline-offset-4">IIITM Gwalior</span> and mentoring at SchoolHouse.
+                </p>
+<div class="flex flex-wrap gap-4 justify-center md:justify-start">
+<button class="bg-primary text-on-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all soft-lift">
+                        View My Journey
+                    </button>
+<button class="bg-surface-container-high text-primary px-8 py-4 rounded-full font-bold text-lg hover:scale-105 transition-all">
+                        Let's Chat
+                    </button>
+</div>
+</div>
+<div class="flex-1 relative group">
+<div class="absolute -inset-4 bg-primary-container/30 rounded-full blur-3xl group-hover:bg-secondary-container/30 transition-colors duration-500"></div>
+<div class="relative bg-surface-container-lowest rounded-xl p-8 soft-lift overflow-hidden aspect-square flex items-center justify-center">
+<img class="w-full h-full object-contain rounded-lg hover:scale-110 transition-transform duration-700" data-alt="abstract minimalist 3D geometric shapes in mint and coral colors floating on a soft white background with high-end lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_Y6u_-bGVrgiN0DqYgugODK5JxZnNm1OZjRDVegig3XCSyLiFXmyLJeI8G-cCmgR5RT2-d8sCDU20jhFMYR6dHfteJFbfF0YCihQ-hrysFK5SJkARt3LilC3Zg06yONJC9sJamhoeY8J0FBO1ytyx35yCgXwEhH5NbX3LCb2Y7pUVx6StZgDosJSlGScRFJy4_-TnOES_LThrhe4T4x2uecHgOp7ZDwdNhOZXxHgItceG7XApc4uvZPKC1s4JOVvsWSO5RVz5WQ"/>
+</div>
+</div>
+</section>
+<!-- My Journey (Experience) -->
+<section class="space-y-16" id="experience">
+<div class="flex flex-col items-center text-center space-y-4">
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight">My Journey</h2>
+<div class="h-1.5 w-24 bg-secondary-container rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Card 1 -->
+<div class="bg-surface-container-low rounded-xl p-10 space-y-6 hover:bg-surface-container transition-colors duration-300 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl" data-icon="school">school</span>
+</div>
+<div class="w-16 h-16 bg-primary-container rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container text-3xl" data-icon="history_edu" style="font-variation-settings: 'FILL' 1;">history_edu</span>
+</div>
+<div>
+<h3 class="text-2xl font-bold mb-1">Educator @ SchoolHouse</h3>
+<p class="text-primary font-bold">2023 - Present</p>
+</div>
+<p class="text-on-surface-variant text-lg leading-relaxed">
+                        Simplifying complex CS concepts for global students. Focused on making logic intuitive and coding fun through peer-to-peer learning models.
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="bg-surface-container-low rounded-xl p-10 space-y-6 hover:bg-surface-container transition-colors duration-300 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-8 opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-8xl" data-icon="code">code</span>
+</div>
+<div class="w-16 h-16 bg-secondary-container rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container text-3xl" data-icon="terminal" style="font-variation-settings: 'FILL' 1;">terminal</span>
+</div>
+<div>
+<h3 class="text-2xl font-bold mb-1">Open Source Contributor</h3>
+<p class="text-secondary font-bold">Ongoing Explorer</p>
+</div>
+<p class="text-on-surface-variant text-lg leading-relaxed">
+                        Contributing to various student-led initiatives at IIITM Gwalior, building tools that solve real campus problems using Python and React.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Academic Core (Education) -->
+<section class="bg-surface-container rounded-xl p-12 md:p-20 relative overflow-hidden">
+<div class="absolute top-0 left-0 w-full h-full opacity-5 pointer-events-none" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBSLs1RvLdMkY5N59K-1L4qkHchQJ9DnD9eOGamMQROiyvaXVWR9LUd61P0Bq7xNujo2sbDmkfMj_vac7PxEvjGhWplUMHXP_EC_wsl9L9vMRgZdXsdyZi7Flkf9THbivbqjjarLcEuTGvRkZJO3q4trJcTh3aK1dJeZ9Zey75pcWXRnVhOTtMOT9NVPGnZqIRdIp9__CgqMcsMnVqPUsARwTN1Ns6Cdo1MHG8iPhy8WLGuaXIWCqOksQgh3WYJbJHW_l-A1Qgp_A');"></div>
+<div class="relative z-10 flex flex-col md:flex-row gap-16 items-center">
+<div class="flex-1 space-y-6">
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight">Academic Core</h2>
+<p class="text-xl text-on-surface-variant leading-relaxed">
+                        Currently pursuing a Bachelor of Technology in Computer Science at <span class="font-bold text-primary">IIITM Gwalior</span>. My curriculum focuses on algorithmic efficiency and modern software architecture.
+                    </p>
+<div class="flex flex-wrap gap-3">
+<span class="px-5 py-2 bg-surface-container-lowest rounded-full text-sm font-semibold text-tertiary soft-lift">Data Structures</span>
+<span class="px-5 py-2 bg-surface-container-lowest rounded-full text-sm font-semibold text-tertiary soft-lift">Algorithms</span>
+<span class="px-5 py-2 bg-surface-container-lowest rounded-full text-sm font-semibold text-tertiary soft-lift">OS Design</span>
+<span class="px-5 py-2 bg-surface-container-lowest rounded-full text-sm font-semibold text-tertiary soft-lift">Machine Learning</span>
+</div>
+</div>
+<div class="flex-1 w-full">
+<div class="bg-surface-container-lowest rounded-lg p-8 soft-lift rotate-2 hover:rotate-0 transition-transform duration-500">
+<div class="flex items-center gap-4 mb-6">
+<div class="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+<span class="material-symbols-outlined text-primary" data-icon="workspace_premium" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+</div>
+<div>
+<h4 class="font-bold">Honors &amp; Recognition</h4>
+<p class="text-xs text-on-surface-variant">Academic Excellence</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="h-3 w-full bg-surface-container rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[92%]"></div>
+</div>
+<div class="flex justify-between text-sm font-bold">
+<span>Core GPA</span>
+<span>9.2/10.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Tools (Skills) -->
+<section class="space-y-16" id="skills">
+<div class="text-center space-y-4">
+<h2 class="text-4xl md:text-5xl font-extrabold tracking-tight">Technical Tools</h2>
+<p class="text-on-surface-variant font-medium">My favorites for building digital wonders</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<!-- Skill 1 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-center text-center gap-4 soft-lift hover:scale-105 transition-transform cursor-default">
+<div class="w-16 h-16 rounded-full bg-tertiary-container/20 flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-4xl" data-icon="terminal">terminal</span>
+</div>
+<span class="font-bold text-lg">Python</span>
+</div>
+<!-- Skill 2 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-center text-center gap-4 soft-lift hover:scale-105 transition-transform cursor-default">
+<div class="w-16 h-16 rounded-full bg-primary-container/20 flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-4xl" data-icon="javascript">javascript</span>
+</div>
+<span class="font-bold text-lg">React &amp; JS</span>
+</div>
+<!-- Skill 3 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-center text-center gap-4 soft-lift hover:scale-105 transition-transform cursor-default">
+<div class="w-16 h-16 rounded-full bg-secondary-container/20 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-4xl" data-icon="database">database</span>
+</div>
+<span class="font-bold text-lg">PostgreSQL</span>
+</div>
+<!-- Skill 4 -->
+<div class="bg-surface-container-lowest p-8 rounded-xl flex flex-col items-center text-center gap-4 soft-lift hover:scale-105 transition-transform cursor-default">
+<div class="w-16 h-16 rounded-full bg-surface-container-highest/50 flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-4xl" data-icon="cloud">cloud</span>
+</div>
+<span class="font-bold text-lg">Docker &amp; Cloud</span>
+</div>
+</div>
+</section>
+<!-- CTA Section (The Playground) -->
+<section class="relative bg-primary py-24 rounded-xl overflow-hidden text-center text-on-primary">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-container/20 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-tertiary-container/20 rounded-full -ml-32 -mb-32 blur-3xl"></div>
+<div class="relative z-10 space-y-8 max-w-2xl mx-auto px-6">
+<h2 class="text-4xl md:text-6xl font-extrabold tracking-tighter">Ready to play with code?</h2>
+<p class="text-xl opacity-90 font-medium">
+                    I'm always looking for exciting collaborations, research opportunities, or a good chat about the latest in tech.
+                </p>
+<div class="flex justify-center">
+<a class="bg-white text-primary px-10 py-4 rounded-full font-bold text-lg hover:bg-primary-container hover:text-on-primary-container transition-all soft-lift" href="mailto:hello@srivjandhyala.com">
+                        Drop a Hello!
+                    </a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-50 dark:bg-slate-950 w-full py-12 tonal-shift from main background flat no shadows">
+<div class="flex flex-col md:flex-row justify-between items-center px-12 max-w-7xl mx-auto gap-4">
+<div class="text-lg font-bold text-slate-800 dark:text-slate-200">Academic Playground</div>
+<div class="flex gap-8 font-['Be_Vietnam_Pro'] text-sm font-medium">
+<a class="text-slate-500 dark:text-slate-500 hover:text-teal-500 transition-colors opacity-80 hover:opacity-100" href="#">GitHub</a>
+<a class="text-slate-500 dark:text-slate-500 hover:text-teal-500 transition-colors opacity-80 hover:opacity-100" href="#">LinkedIn</a>
+<a class="text-slate-500 dark:text-slate-500 hover:text-teal-500 transition-colors opacity-80 hover:opacity-100" href="#">Email</a>
+</div>
+<div class="text-slate-500 dark:text-slate-500 font-['Be_Vietnam_Pro'] text-sm font-medium">
+                © 2024 Computer Science Portfolio
+            </div>
+</div>
+</footer>
+</body></html>
