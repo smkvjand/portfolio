@@ -1,308 +1,221 @@
 <!DOCTYPE html>
 
-<html class="scroll-smooth" lang="en"><head>
+<html lang="en"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Projects | Academic Playground</title>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<title>Certifications | Academic Playground</title>
 <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
 <script id="tailwind-config">
-        tailwind.config = {
-          darkMode: "class",
-          theme: {
-            extend: {
-              "colors": {
-                      "surface-bright": "#f5f6f7",
-                      "inverse-surface": "#0c0f10",
-                      "on-tertiary-fixed": "#00192e",
-                      "error-dim": "#9f0519",
-                      "surface-container-low": "#eff1f2",
-                      "surface-container-highest": "#dadddf",
-                      "surface-tint": "#006760",
-                      "on-tertiary-container": "#003355",
-                      "tertiary-fixed": "#66b6ff",
-                      "secondary-container": "#ffc3bd",
-                      "primary": "#006760",
-                      "primary-fixed-dim": "#63e2d6",
-                      "on-secondary": "#ffefed",
-                      "outline-variant": "#abadae",
-                      "on-error": "#ffefee",
-                      "surface": "#f5f6f7",
-                      "on-background": "#2c2f30",
-                      "background": "#f5f6f7",
-                      "primary-dim": "#005a54",
-                      "error": "#b31b25",
-                      "inverse-on-surface": "#9b9d9e",
-                      "secondary-fixed-dim": "#ffafa8",
-                      "secondary": "#9b3d37",
-                      "surface-dim": "#d1d5d7",
-                      "secondary-dim": "#8b312c",
-                      "on-secondary-container": "#802925",
-                      "primary-container": "#73f1e4",
-                      "on-tertiary-fixed-variant": "#003c63",
-                      "tertiary-dim": "#005386",
-                      "on-primary-fixed": "#00443f",
-                      "on-primary-fixed-variant": "#00635c",
-                      "surface-container-lowest": "#ffffff",
-                      "on-tertiary": "#ecf3ff",
-                      "error-container": "#fb5151",
-                      "inverse-primary": "#7cfaed",
-                      "on-primary-container": "#005852",
-                      "secondary-fixed": "#ffc3bd",
-                      "on-surface": "#2c2f30",
-                      "on-error-container": "#570008",
-                      "tertiary": "#005f99",
-                      "on-secondary-fixed-variant": "#8c322d",
-                      "surface-container-high": "#e0e3e4",
-                      "primary-fixed": "#73f1e4",
-                      "outline": "#757778",
-                      "tertiary-container": "#66b6ff",
-                      "on-primary": "#bffff6",
-                      "on-surface-variant": "#595c5d",
-                      "surface-container": "#e6e8ea",
-                      "tertiary-fixed-dim": "#47a9f9",
-                      "surface-variant": "#dadddf",
-                      "on-secondary-fixed": "#661614"
-              },
-              "borderRadius": {
-                      "DEFAULT": "1rem",
-                      "lg": "2rem",
-                      "xl": "3rem",
-                      "full": "9999px"
-              },
-              "fontFamily": {
-                      "headline": ["Plus Jakarta Sans"],
-                      "body": ["Be Vietnam Pro"],
-                      "label": ["Plus Jakarta Sans"]
-              }
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface-bright": "#f5f6f7",
+                    "inverse-surface": "#0c0f10",
+                    "on-tertiary-fixed": "#00192e",
+                    "error-dim": "#9f0519",
+                    "surface-container-low": "#eff1f2",
+                    "surface-container-highest": "#dadddf",
+                    "surface-tint": "#006760",
+                    "on-tertiary-container": "#003355",
+                    "tertiary-fixed": "#66b6ff",
+                    "secondary-container": "#ffc3bd",
+                    "primary": "#006760",
+                    "primary-fixed-dim": "#63e2d6",
+                    "on-secondary": "#ffefed",
+                    "outline-variant": "#abadae",
+                    "on-error": "#ffefee",
+                    "surface": "#f5f6f7",
+                    "on-background": "#2c2f30",
+                    "background": "#f5f6f7",
+                    "primary-dim": "#005a54",
+                    "error": "#b31b25",
+                    "inverse-on-surface": "#9b9d9e",
+                    "secondary-fixed-dim": "#ffafa8",
+                    "secondary": "#9b3d37",
+                    "surface-dim": "#d1d5d7",
+                    "secondary-dim": "#8b312c",
+                    "on-secondary-container": "#802925",
+                    "primary-container": "#73f1e4",
+                    "on-tertiary-fixed-variant": "#003c63",
+                    "tertiary-dim": "#005386",
+                    "on-primary-fixed": "#00443f",
+                    "on-primary-fixed-variant": "#00635c",
+                    "surface-container-lowest": "#ffffff",
+                    "on-tertiary": "#ecf3ff",
+                    "error-container": "#fb5151",
+                    "inverse-primary": "#7cfaed",
+                    "on-primary-container": "#005852",
+                    "secondary-fixed": "#ffc3bd",
+                    "on-surface": "#2c2f30",
+                    "on-error-container": "#570008",
+                    "tertiary": "#005f99",
+                    "on-secondary-fixed-variant": "#8c322d",
+                    "surface-container-high": "#e0e3e4",
+                    "primary-fixed": "#73f1e4",
+                    "outline": "#757778",
+                    "tertiary-container": "#66b6ff",
+                    "on-primary": "#bffff6",
+                    "on-surface-variant": "#595c5d",
+                    "surface-container": "#e6e8ea",
+                    "tertiary-fixed-dim": "#47a9f9",
+                    "surface-variant": "#dadddf",
+                    "on-secondary-fixed": "#661614"
             },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Be Vietnam Pro"],
+                    "label": ["Plus Jakarta Sans"]
+            }
           },
-        }
+        },
+      }
     </script>
 <style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        body { font-family: 'Be Vietnam Pro', sans-serif; }
-        h1, h2, h3 { font-family: 'Plus Jakarta Sans', sans-serif; }
+        body { font-family: 'Be Vietnam Pro', sans-serif; background-color: #f5f6f7; color: #2c2f30; }
+        .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .ambient-shadow { box-shadow: 0 20px 40px -10px rgba(44, 47, 48, 0.06); }
+        .pill-gradient { background: linear-gradient(135deg, #006760 0%, #73f1e4 100%); }
     </style>
 </head>
-<body class="bg-background text-on-surface antialiased">
-<!-- TopNavBar -->
-<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-xl shadow-teal-900/5 tonal-shift">
+<body class="bg-surface selection:bg-primary-container selection:text-on-primary-container">
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-xl shadow-teal-900/5">
 <div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-4">
-<div class="text-2xl font-black text-teal-600 font-headline tracking-tight">Academic Playground</div>
-<!-- Desktop Links -->
+<span class="text-2xl font-black text-teal-600 font-headline tracking-tight">Academic Playground</span>
 <div class="hidden md:flex items-center gap-8">
 <a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="index.html">Home</a>
-<a class="text-teal-600 font-bold border-b-4 border-teal-500 rounded-full px-2 hover:scale-105 transition-transform duration-300" href="projects.html">Projects</a>
-<a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="cert.html">Certifications</a>
+<a class="text-slate-600 font-medium px-2 hover:scale-105 hover:text-teal-500 transition-transform duration-300" href="projects.html">Projects</a>
+<a class="text-teal-600 font-bold border-b-4 border-teal-500 rounded-full px-2 hover:scale-105 transition-transform duration-300" href="cert.html">Certifications</a>
 </div>
-<button class="bg-gradient-to-br from-primary to-primary-container text-on-primary-container font-bold px-6 py-2 rounded-full hover:scale-105 active:scale-95 transition-all shadow-lg shadow-primary/10">
-                Contact Me
-            </button>
+<button class="pill-gradient text-white font-headline font-bold px-6 py-2.5 rounded-full hover:scale-105 active:scale-95 transition-all duration-300 shadow-lg shadow-primary/20">
+            Contact Me
+        </button>
 </div>
 </nav>
-<main class="pt-32 pb-24 px-6 md:px-12">
-<div class="max-w-7xl mx-auto">
-<!-- Header Section -->
-<header class="mb-20 space-y-6">
-<div class="inline-flex items-center gap-2 px-4 py-1 rounded-full bg-secondary-container text-on-secondary-container font-headline text-sm font-bold">
-<span class="material-symbols-outlined text-sm">rocket_launch</span>
-                    MY CREATIONS
-                </div>
-<h1 class="text-5xl md:text-7xl font-extrabold tracking-tight text-on-surface leading-tight">
-                    Engineering soft <br/> <span class="text-primary italic">solutions</span> for humans.
-                </h1>
-<p class="text-lg md:text-xl text-on-surface-variant max-w-2xl leading-relaxed">
-                    A collection of technical experiments, academic projects, and software prototypes focused on high-tactile interactivity and clean architecture.
-                </p>
+<main class="pt-32 pb-24 px-6 md:px-12 max-w-7xl mx-auto">
+<header class="mb-16 text-center md:text-left">
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-sm font-bold font-label mb-6">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">verified</span>
+            Verified Achievements
+        </div>
+<h1 class="text-5xl md:text-7xl font-headline font-extrabold text-on-background tracking-tighter leading-tight mb-6">
+            Learning <span class="text-primary italic">Never Stops</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-2xl leading-relaxed font-medium">
+            A collection of technical credentials and specialized training certifications reflecting my commitment to staying at the forefront of Computer Science and Engineering.
+        </p>
 </header>
-<!-- Projects Grid (Updated for 6 projects) -->
-<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
-<!-- Project 1: Console POS -->
-<div class="md:col-span-8 bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
-<div class="h-80 w-full relative overflow-hidden bg-slate-900 flex items-center justify-center p-8">
-<code class="text-emerald-400 font-mono text-lg group-hover:scale-105 transition-transform duration-700">
-                            &gt; system.initialize();<br/>
-                            &gt; inventory.load("grocery_db");<br/>
-                            &gt; checkout.process_order();<br/>
-<span class="animate-pulse">_</span>
-</code>
-<div class="absolute inset-0 bg-gradient-to-t from-surface-container-lowest/80 to-transparent"></div>
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Python Essential Training -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-primary text-4xl" data-icon="terminal">terminal</span>
 </div>
-<div class="p-10 flex flex-col justify-between flex-grow">
-<div class="space-y-4">
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">10th Grade Project</span>
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Console Logic</span>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">Python Essential Training</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Mastery of core Python programming concepts including data structures, functions, and object-oriented programming.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">LinkedIn Learning</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: April 2024</span>
 </div>
-<h3 class="text-3xl font-bold text-on-surface tracking-tight">Console Program for Grocery Store POS</h3>
-<p class="text-on-surface-variant text-lg leading-relaxed max-w-xl">
-                                My early foundation in programming—a robust terminal-based Point of Sale system handling inventory, pricing, and receipts.
-                            </p>
+</article>
+<!-- 19 Labs on Cloud Study Jam -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-tertiary text-4xl" data-icon="cloud">cloud</span>
 </div>
-<div class="pt-8 flex items-center gap-4">
-<a class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all" href="#">
-                                View on GitHub <span class="material-symbols-outlined">arrow_forward</span>
-</a>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">19 Labs on Cloud Study Jam</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Hands-on experience with Google Cloud Platform, covering infrastructure, data processing, and security labs.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">Google Cloud Study Jam</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: March 2024</span>
 </div>
+</article>
+<!-- Arcade Game Badge -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-secondary text-4xl" data-icon="sports_esports">sports_esports</span>
 </div>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">Arcade Game Badge</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Gamified technical challenges demonstrating proficiency in cloud troubleshooting and application deployment.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">Google Cloud Skills Boost</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: February 2024</span>
 </div>
-<!-- Project 2: Graphical POS -->
-<div class="md:col-span-4 bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 border border-outline-variant/10">
-<div class="h-60 bg-primary-container/20 flex items-center justify-center relative overflow-hidden">
-<span class="material-symbols-outlined text-8xl text-primary/20 absolute -right-4 -bottom-4 rotate-12">desktop_windows</span>
-<div class="w-32 h-40 bg-white rounded-lg shadow-xl p-3 flex flex-col gap-2 z-10 group-hover:translate-y-[-10px] transition-transform duration-500">
-<div class="h-4 w-full bg-slate-100 rounded"></div>
-<div class="h-20 w-full bg-slate-50 rounded"></div>
-<div class="h-6 w-full bg-primary/20 rounded"></div>
+</article>
+<!-- AI Microsoft LinkedIn Learning Certificate -->
+<article class="bg-surface-container-lowest rounded-xl p-8 ambient-shadow border border-outline-variant/15 hover:translate-y-[-8px] transition-transform duration-500 flex flex-col group">
+<div class="w-16 h-16 rounded-lg bg-surface-container flex items-center justify-center mb-8 group-hover:scale-110 transition-transform duration-500">
+<span class="material-symbols-outlined text-on-tertiary-fixed-variant text-4xl" data-icon="smart_toy">smart_toy</span>
 </div>
+<h3 class="text-2xl font-headline font-bold text-on-background mb-2 leading-tight">AI Microsoft Certificate</h3>
+<p class="text-on-surface-variant font-medium mb-6 flex-grow">Comprehensive training on Microsoft AI solutions, Azure Machine Learning, and ethical AI implementation.</p>
+<div class="flex flex-col gap-1 pt-6 border-t border-surface-container">
+<span class="text-sm font-bold font-label text-primary">Microsoft • LinkedIn Learning</span>
+<span class="text-xs font-semibold text-outline tracking-wider uppercase">Issued: January 2024</span>
 </div>
-<div class="p-8 space-y-4 flex-grow flex flex-col justify-between">
-<div>
-<div class="flex flex-wrap gap-2 mb-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">GUI Design</span>
+</article>
+<div class="lg:col-span-2 relative overflow-hidden bg-surface-container rounded-xl p-8 md:p-12 border border-outline-variant/15 flex flex-col md:flex-row items-center gap-8">
+<div class="flex-1 order-2 md:order-1">
+<h3 class="text-3xl font-headline font-extrabold text-on-background mb-4">In Progress: Advanced Data Structures</h3>
+<p class="text-lg text-on-surface-variant mb-6 leading-relaxed">Currently tackling algorithmic complexity and high-performance computation models at MIT OpenCourseWare.</p>
+<div class="w-full bg-surface-container-highest rounded-full h-3 mb-2">
+<div class="bg-primary h-3 rounded-full" style="width: 75%"></div>
 </div>
-<h3 class="text-2xl font-bold text-on-surface tracking-tight">Graphical POS Interface</h3>
-<p class="text-on-surface-variant leading-relaxed">
-                                Evolving the console logic into a user-friendly desktop application with a visual interface for cashier operations.
-                            </p>
+<span class="text-sm font-bold text-primary font-label">75% Complete</span>
 </div>
-<div class="pt-4">
-<a class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all" href="#">
-                                GitHub <span class="material-symbols-outlined text-sm">east</span>
-</a>
+<div class="w-full md:w-1/3 aspect-square rounded-lg overflow-hidden order-1 md:order-2 ambient-shadow">
+<img alt="Coding workspace" class="w-full h-full object-cover" data-alt="close-up of a modern laptop screen showing complex colorful code in a dark room with soft ambient neon lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB7fKModFM7b9N20WpYKxvewYkX5fEU1xqFn8eagWwAoy6rRzf0-vmOgwT-vNHJH93FDV5gac3zkNVbxP-TJTpOIOHTY-AT3btv763_nwJCnLKf-wZZU_ywrIh4MsFAognoF9CC8aUlLMxrlVRytQd02LWOcGbcG1cuc0xq-96XoceGFnn7x6fdDflo6yEksz49hIjX3pdXQYd39kktroHyN4XrEeIXSCEUJkBChaXfDOFFbquN_jMMMCMZMvxTCjLKymeK8_8X4w"/>
 </div>
-</div>
-</div>
-<!-- Project 3: Sound Pollution Mapper -->
-<div class="md:col-span-6 bg-surface-container-lowest rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500">
-<div class="p-10 space-y-6">
-<div class="h-12 w-12 rounded-xl bg-secondary-container flex items-center justify-center text-on-secondary-container">
-<span class="material-symbols-outlined">map</span>
-</div>
-<div class="space-y-2">
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Android</span>
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Data Visualization</span>
-</div>
-<h3 class="text-2xl font-bold text-on-surface">Sound Pollution Mapper</h3>
-<p class="text-on-surface-variant leading-relaxed">
-                                An Android project that utilizes mobile sensors to record and map acoustic pollution levels in urban environments.
-                            </p>
-</div>
-</div>
-<div class="mt-auto p-10 pt-0">
-<a class="inline-flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all" href="#">
-                            View on GitHub <span class="material-symbols-outlined">arrow_forward</span>
-</a>
-</div>
-</div>
-<!-- Project 4: Attendance App -->
-<div class="md:col-span-6 bg-surface-container-lowest border border-outline-variant/10 rounded-xl overflow-hidden flex flex-col group hover:shadow-2xl transition-all duration-500">
-<div class="p-10 space-y-6 flex-grow">
-<div class="h-12 w-12 rounded-xl bg-primary-container flex items-center justify-center text-on-primary-container">
-<span class="material-symbols-outlined">how_to_reg</span>
-</div>
-<div class="space-y-2">
-<div class="flex flex-wrap gap-2">
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">Beta</span>
-<span class="px-3 py-1 bg-surface-container-high text-primary font-medium text-xs rounded-full">University Tool</span>
-</div>
-<h3 class="text-2xl font-bold text-on-surface">University Attendance App</h3>
-<p class="text-on-surface-variant leading-relaxed">
-                                A mobile solution designed for higher education to streamline check-ins and attendance tracking for large lecture halls.
-                            </p>
-</div>
-</div>
-<div class="p-10 pt-0">
-<a class="bg-primary/5 hover:bg-primary/10 text-primary px-4 py-2 rounded-lg font-bold transition-colors inline-flex items-center gap-2" href="#">
-                            Check Repository <span class="material-symbols-outlined text-sm">link</span>
-</a>
-</div>
-</div>
-<!-- Project 5: Wardrobe AI -->
-<div class="md:col-span-6 bg-tertiary-container/10 rounded-xl p-10 flex flex-col justify-center space-y-6 group hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
-<div class="absolute -top-10 -right-10 w-40 h-40 bg-tertiary/5 rounded-full blur-3xl"></div>
-<div class="flex items-center gap-4">
-<div class="p-3 bg-surface-container-lowest rounded-full shadow-sm">
-<span class="material-symbols-outlined text-tertiary">apparel</span>
-</div>
-<h3 class="text-2xl font-bold text-on-surface tracking-tight">Wardrobe AI Project</h3>
-</div>
-<p class="text-on-surface-variant text-lg leading-relaxed">
-                        Currently developing an AI-driven personal stylist that categorizes your clothing and suggests daily outfits based on weather and schedules.
-                    </p>
-<div class="flex items-center gap-3">
-<span class="inline-block w-3 h-3 bg-tertiary rounded-full animate-pulse"></span>
-<span class="text-sm font-bold text-tertiary uppercase tracking-widest">In Progress</span>
-</div>
-<div class="flex gap-2 pt-4">
-<a class="px-4 py-2 bg-surface-container-lowest text-tertiary font-bold text-xs rounded-full shadow-sm hover:bg-tertiary hover:text-white transition-all" href="#">View GitHub Progress</a>
-</div>
-</div>
-<!-- Project 6: Campus Store -->
-<div class="md:col-span-6 bg-secondary-container/10 rounded-xl p-10 flex flex-col justify-center space-y-6 group hover:shadow-2xl transition-all duration-500 relative overflow-hidden">
-<div class="absolute -bottom-10 -left-10 w-40 h-40 bg-secondary/5 rounded-full blur-3xl"></div>
-<div class="flex items-center gap-4">
-<div class="p-3 bg-surface-container-lowest rounded-full shadow-sm">
-<span class="material-symbols-outlined text-secondary">local_mall</span>
-</div>
-<h3 class="text-2xl font-bold text-on-surface tracking-tight">Campus Second-Hand Store</h3>
-</div>
-<p class="text-on-surface-variant text-lg leading-relaxed">
-                        Building a full-stack marketplace for students to buy and sell textbooks, electronics, and furniture within the campus ecosystem.
-                    </p>
-<div class="flex items-center gap-3">
-<span class="inline-block w-3 h-3 bg-secondary rounded-full animate-pulse"></span>
-<span class="text-sm font-bold text-secondary uppercase tracking-widest">Development Phase</span>
-</div>
-<div class="flex gap-2 pt-4">
-<a class="px-4 py-2 bg-surface-container-lowest text-secondary font-bold text-xs rounded-full shadow-sm hover:bg-secondary hover:text-white transition-all" href="#">Follow on GitHub</a>
-</div>
-</div>
-</div>
-<!-- Skills Accent Section -->
-<section class="mt-32 p-12 rounded-xl bg-surface-container text-center space-y-8">
-<h2 class="text-3xl font-bold text-on-surface">Core Competencies</h2>
-<div class="flex flex-wrap justify-center gap-4">
-<span class="px-6 py-3 bg-surface-container-lowest text-primary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">Full Stack Dev</span>
-<span class="px-6 py-3 bg-surface-container-lowest text-secondary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">Mobile Engineering</span>
-<span class="px-6 py-3 bg-surface-container-lowest text-tertiary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">UI/UX Research</span>
-<span class="px-6 py-3 bg-surface-container-lowest text-primary rounded-full font-bold shadow-sm hover:translate-y-[-2px] transition-transform">Cloud Architecture</span>
 </div>
 </section>
+<section class="mt-24 bg-surface-container-lowest rounded-xl p-12 ambient-shadow flex flex-col lg:flex-row items-center justify-between gap-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-64 h-64 bg-primary-container/20 rounded-full blur-3xl -mr-32 -mt-32"></div>
+<div class="relative z-10 max-w-xl text-center lg:text-left">
+<h2 class="text-4xl font-headline font-extrabold text-on-background mb-4">Academic Background</h2>
+<p class="text-lg text-on-surface-variant leading-relaxed mb-8">
+                Currently pursuing a B.S. in Computer Science at the University of Technology, focusing on Distributed Systems and Artificial Intelligence.
+            </p>
+<div class="flex flex-wrap justify-center lg:justify-start gap-4">
+<div class="px-6 py-3 bg-surface-container rounded-full font-bold text-on-surface flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="school">school</span>
+                    Dean's List 2023
+                </div>
+<div class="px-6 py-3 bg-surface-container rounded-full font-bold text-on-surface flex items-center gap-3">
+<span class="material-symbols-outlined text-primary" data-icon="military_tech">military_tech</span>
+                    Hackathon Finalist
+                </div>
 </div>
+</div>
+<div class="relative z-10 w-full max-w-xs aspect-[4/5] bg-surface-container-high rounded-xl overflow-hidden shadow-2xl rotate-2">
+<img alt="University Campus" class="w-full h-full object-cover" data-alt="modern glass university library architecture reflected in a still pond during a peaceful morning sunrise with soft shadows" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZHiLvSqQu0VmGt_UVJ2yjDsZ0PkhgfNR3mbx9ip_M3b-sAun20muBLtS89Ylk2H2KPFUCaACi49xwYTChBjMjlyfoD0nTf29y06SwhuaHW_83LQeDRlHSf7S7EDRR0FaEefiO83uFIr46Gn6MnPXwsJnEAzrqk2y5BANkAK7rFdHKxRnwn5HGDMGlrqywMC8jQEakqFB3Olta64MYfuTW22-VCFKE-04ivJrEGIb9s3UYynYq4d6eq9b6wjDZs0Pys_SFPt1nYA"/>
+</div>
+</section>
 </main>
-<!-- Footer -->
-<footer class="w-full py-12 px-8 bg-slate-100 tonal-shift-bg">
+<footer class="bg-slate-100 w-full py-12 px-8">
 <div class="flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
-<div class="text-slate-500 font-medium font-be-vietnam-pro text-sm">© 2024 Academic Playground</div>
-<div class="flex gap-8">
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">LinkedIn</a>
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">YouTube</a>
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">GitHub</a>
-<a class="text-slate-500 hover:text-teal-500 font-medium transition-all hover:translate-y-[-2px]" href="#">Email</a>
+<div class="flex flex-col items-center md:items-start gap-2">
+<p class="font-be-vietnam-pro text-sm font-medium text-slate-500">© 2024 Academic Playground Portfolio</p>
+<div class="flex gap-4">
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">LinkedIn</a>
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">YouTube</a>
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">Schoolhouse</a>
+<a class="text-coral-500 font-be-vietnam-pro text-sm font-medium hover:text-teal-500 hover:translate-y-[-2px] transition-all" href="#">Email</a>
 </div>
-<!-- Hidden Brand Logo -->
-<div class="hidden">Academic Playground</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="text-slate-400 font-headline font-bold text-sm tracking-widest uppercase">Stay Curious</span>
+<div class="w-12 h-[2px] bg-outline-variant/30"></div>
+</div>
 </div>
 </footer>
-<!-- Mobile Navigation -->
-<div class="md:hidden fixed bottom-0 left-0 right-0 bg-white/80 backdrop-blur-lg px-6 py-4 flex justify-around items-center z-50 border-t border-outline-variant/10">
-<a class="flex flex-col items-center gap-1 text-slate-500" href="index.html">
-<span class="material-symbols-outlined">home</span>
-<span class="text-[10px] font-bold">Home</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-teal-600" href="projects.html">
-<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">widgets</span>
-<span class="text-[10px] font-bold">Projects</span>
-</a>
-<a class="flex flex-col items-center gap-1 text-slate-500" href="cert.html">
-<span class="material-symbols-outlined">verified</span>
-<span class="text-[10px] font-bold">Certs</span>
-</a>
-</div>
 </body></html>
